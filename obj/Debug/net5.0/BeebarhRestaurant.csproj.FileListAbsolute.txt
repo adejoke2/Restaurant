@@ -147,3 +147,16 @@ C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\BeebarhRestaurant
 C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\ref\BeebarhRestaurant.dll
 C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\BeebarhRestaurant.pdb
 C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\BeebarhRestaurant.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\Razor\Views\Cart\Summary.cshtml.g.cs
+C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
+C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\Razor\Views\User\Login.cshtml.g.cs
+C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\Razor\Views\User\LogOut.cshtml.g.cs
+C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\Razor\Views\User\Register.cshtml.g.cs
+C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\Razor\Views\Shared\_CustomerDashboardLayout.cshtml.g.cs
+C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\Razor\Views\Shared\_ManagerDashBoardLayout.cshtml.g.cs
+C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\Razor\Views\Shared\_DashBoardLayout.cshtml.g.cs
+C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\Razor\Views\Admin\Detail.cshtml.g.cs
+C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\Razor\Views\Shared\_AdminDashBoard.cshtml.g.cs
+C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\Razor\Views\Customer\Index.cshtml.g.cs
+C:\Users\ADMIN\source\repos\BeebarhRestaurant\obj\Debug\net5.0\Razor\Views\Manager\Index.cshtml.g.cs

@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - BeebarhFoodOrderingManagement</title>
+    <title>@ViewData["Title"] - BeebarhRestaurant</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/FontAwesome/css/all.css" />
@@ -26,36 +26,29 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Dropdown button
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" asp-area="" asp-controller="Product" asp-action="Index">Product</a>
-                                </div>
-                            </div>
 
-                        </li>
                         <li>
-                            @if(HttpContextAccessor.HttpContext.Session.Get<List<ShoppingCart>>(WC.SessionCart)!= null)
+                            @if (HttpContextAccessor.HttpContext.Session.Get<List<ShoppingCart>>(WC.SessionCart) != null)
                             {
-                               <a asp-action ="Index" asp-controller="Cart" class="nav-link">
-                                   @{
-                                       var Count = HttpContextAccessor.HttpContext.Session.Get<List<ShoppingCart>>(WC.SessionCart).Count;
-                                   }
-                                   <i class="fas fa-cart-arrow-down"></i> &nbsp; (@Count)
-                               </a>
+                                <a asp-action="Index" asp-controller="Cart" class="nav-link">
+                                    @{
+                                        var Count = HttpContextAccessor.HttpContext.Session.Get<List<ShoppingCart>>(WC.SessionCart).Count;
+                                    }
+                                    <i class="fas fa-cart-arrow-down"></i> &nbsp; (@Count)
+                                </a>
                             }
                             else
                             {
-                            <a href="#" class="nav-link">
-                            <i class="fas fa-cart-arrow-down"></i> &nbsp; (0)
-                            </a>
+                                <a href="#" class="nav-link">
+                                    <i class="fas fa-cart-arrow-down"></i> &nbsp; (0)
+                                </a>
                             }
                         </li>
                     </ul>
+
                 </div>
+                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Register" style="color:deepskyblue">SignUp</a>
+                <a class="nav-link font-weight-bolder" asp-area="" asp-controller="User" asp-action="Login" style="color:deeppink">SignIn</a>
             </div>
         </nav>
     </header>
@@ -67,7 +60,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - BeebarhFoodOrderingManagement - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - BeebarhRestaurant - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

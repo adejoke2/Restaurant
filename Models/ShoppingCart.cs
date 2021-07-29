@@ -8,7 +8,6 @@ namespace BeebarhRestaurant.Models
 {
     public class ShoppingCart
     {   
-        [Required]
         public int ProductId { get; set; }
     }
 }
